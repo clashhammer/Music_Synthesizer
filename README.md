@@ -18,5 +18,6 @@ Here are the links to both drivers' sites
 
 - CH340 - https://www.wch-ic.com/downloads/CH341SER_EXE.html
 
+Week 2 I made some code that outputs different kinds of waves. To test it yourself you need everything that you needed before plus a button connected on D33 on the ESP32.
 
-That's it for now. See you in a bit with the other stuff for the project.
+See you soon!
