@@ -21,7 +21,7 @@ Here are the links to both drivers' sites
 Week 2: I made some code that outputs different kinds of waves. To test it yourself you need everything that you needed before plus a button connected on D33 on the ESP32.
 
 I'm pasting the links of the youtube videos if you haven't watched them:
-Week 1: https://www.youtube.com/watch?v=KsLsLhWKawg
-Week 2: https://www.youtube.com/watch?v=wZyJPKn39lI
+- Week 1: https://www.youtube.com/watch?v=KsLsLhWKawg
+- Week 2: https://www.youtube.com/watch?v=wZyJPKn39lI
 
 See you soon!
