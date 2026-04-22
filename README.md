@@ -24,4 +24,12 @@ I'm pasting the links of the youtube videos if you haven't watched them:
 - Week 1: https://www.youtube.com/watch?v=KsLsLhWKawg
 - Week 2: https://www.youtube.com/watch?v=wZyJPKn39lI
 
+Week 3: I made the musical output finally. It works soo good. I even made a tik tok video of me playing "I feel so close to you right now" low cortisol song, check it out: https://vm.tiktok.com/ZNRqwTFDQ/
+Anyways, I'll post the code and here's what you need to make it:
+- 4 more pushbuttons connected to pins D15, D18, D19, D21;
+- 1 PAM8403 Op-Amp IC board connected to pin 1 of the NE5532 to the L pin;
+- 1 8Ω 0.5W speaker connected to the L out of the PAM8403 board.
+- 1 100kΩ resistor that grounds pin 3 of the NE5532 to keep it from leaking DC voltage. 
+
+
 See you soon!
