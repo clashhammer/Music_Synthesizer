@@ -5,10 +5,6 @@ I got the idea from a girl I know that wants to be a singer and she said she wan
 
 ## Bill of Materials
 
-## Bill of Materials
-
-## Bill of Materials
-
 | Part | Quantity | Price | Link |
 |---|---:|---:|---|
 | ESP32 DevKit V1 | 1 | €6.89 | [Buy](https://share.temu.com/K3tj6sE6siB) |
