@@ -25,6 +25,8 @@ Also for the code you'll need to download some libraries from the ARDUINO IDE li
 - Adafruit_GFX (again should be second one)
 - Adafruit_ST7789 (first one this time)
 
+I also have some custom part signs that I've uploaded as a rar file.
+
 Btw if you haven't used ESP32 before (like me), to connect it to your computer and upload the code you need to install a driver, corelating to what your ESP32 type is. There is a little chip under the big one on the board. To install the correct drivers you need to see what the letters on this chip say. If they say "SILABS CP210x" you need to install the CP210x driver. If it says "CH340" you need to install the CH340 driver on your computer. if it says nothing you need to install the CH340 driver.
 
 Here are the links to both drivers' sites
@@ -39,6 +41,8 @@ Here are some photos of the finished part of the project like schematic, pcb and
 <img width="1323" height="397" alt="image" src="https://github.com/user-attachments/assets/36bfdf83-a32e-4d47-86ea-8766c584eca7" />
 
 Youtube video (unlisted): https://youtube.com/shorts/R9iYHdPvPAw
+
+This isn't final and I'll make more updates in the future, thus the not so explanatory explanations.
 
 I added an MIT Licence for free use of my project files.
 
