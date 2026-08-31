@@ -19,6 +19,17 @@ Here are the links to both drivers' sites
 
 - CH340 - https://www.wch-ic.com/downloads/CH341SER_EXE.html
 
+Here are some photos of the finished part of the project like schematic, pcb and 3D display of it and youtube video of how it works.
+
+<img width="1393" height="817" alt="image" src="https://github.com/user-attachments/assets/bfae3068-817c-429a-9da3-773daee73581" />
+<img width="1513" height="448" alt="image" src="https://github.com/user-attachments/assets/94bef8fe-e3f2-41a2-88c5-fb4fb4076a7a" />
+<img width="1323" height="397" alt="image" src="https://github.com/user-attachments/assets/36bfdf83-a32e-4d47-86ea-8766c584eca7" />
+
+Youtube video (unlisted): https://youtube.com/shorts/R9iYHdPvPAw
+
+
+
+
 
 
 
