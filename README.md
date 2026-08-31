@@ -27,6 +27,8 @@ Here are some photos of the finished part of the project like schematic, pcb and
 
 Youtube video (unlisted): https://youtube.com/shorts/R9iYHdPvPAw
 
+I added an MIT Licence for free use of my project files.
+
 
 
 
