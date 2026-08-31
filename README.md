@@ -1,35 +1,26 @@
 # Music_Synthesizer
-A combination of 4 types of waves to make the music that your heart desires. 
+A project that studies the effect of sound and how waves produce it. Works like a piano and has a screen that outputs like a digital oscilloscope showing the wave that you hear and telling you it's frequency.
 
-The first file I'm uploading is called sine_wave.ini . In there you'll find the code that I used for creating the sine wave output from the ESP32. This is to complete the first week of the "Locked in" sidequest. Next week I'll have all the code with the other three types of waves (square, triangle, sawtooth). I'll add a handmade osciloscope there and a speaker and some more Op-Amp IC's and so on. It's going to be fun ig.
+I got the idea from a girl I know that wants to be a singer and she said she wanted to buy a synthesizer to get a step closer to composing her own song. That's when I thought "how cool it would be to try and make one, maybe even give it to her if it turns out good.". And yeah, that's basically how I got an idea to build a musical synthesizer.
 
-Here's what you'll need for the sine wave output code to work and how to connect the stuff.
-- 1 breadboard;
-- 1 ESP32;
-- 1 10uF capacitor, that is connected to D25 on the ESP32 with it's positive leg and to pin 3 on the Op-Amp IC with it's negative leg;
-- 1 NE5532 Op-Amp IC, that has pins 1 and 2 bridged and pin 3 connected to the capacitor's negative leg. Also put a wire on pin 1 to read the signal using an osciloscope probe connected to it.;
-- 2 9V batteries;
-- 2 cables for 9V batteries, that are junctioned (positive end of one cable is connected to the negative end of another cable, essentially making a common ground between the batteries which we'll need for the cirquit to oscillate) We connect the positive side of the junctioned cable to pin 8 and the negative side to pin 4. To connect the osciloscope we put ground of the ESP32 and the common ground between the batteries on the same ground rail on the breadboard and connect the ground cable of the probe there.;
+Project parts are in the file called bom.csv
 
-Btw if you haven't used ESP32 before (like me), to connect it to your computer to upload the code you need to install a driver, corelating to what your ESP32 type is. There is a little chip under the big one on the board. To install the correct drivers you need to see what the letters on this chip say. If they say "SILABS CP210x" you need to install the CP210x driver. If it says "CH340" you need to install the CH340 driver on your computer. if it says nothing you need to install the CH340 driver.
+To build a prototype follow the schematic and see where each wire is connected then upload the code to the ESP32 to use it. My own prototype uses just one custom PAM 8403 amplifier board and just one PCM5102 DAC board. I have color coded and connected all parts adjusting to the pinout and code in the schematic for easy understanding.
+
+Also for the code you'll need to download some libraries from the ARDUINO IDE library picker for the code to propperly compile. These are:
+- ESP_I2S (should be the second one in the list)
+- Adafruit_GFX (again should be second one)
+- Adafruit_ST7789 (first one this time)
+
+Btw if you haven't used ESP32 before (like me), to connect it to your computer and upload the code you need to install a driver, corelating to what your ESP32 type is. There is a little chip under the big one on the board. To install the correct drivers you need to see what the letters on this chip say. If they say "SILABS CP210x" you need to install the CP210x driver. If it says "CH340" you need to install the CH340 driver on your computer. if it says nothing you need to install the CH340 driver.
 
 Here are the links to both drivers' sites
 - CP210x - https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=overview
 
 - CH340 - https://www.wch-ic.com/downloads/CH341SER_EXE.html
 
-Week 2: I made some code that outputs different kinds of waves. To test it yourself you need everything that you needed before plus a button connected on D33 on the ESP32.
-
-I'm pasting the links of the youtube videos if you haven't watched them:
-- Week 1: https://www.youtube.com/watch?v=KsLsLhWKawg
-- Week 2: https://www.youtube.com/watch?v=wZyJPKn39lI
-
-Week 3: I made the musical output finally. It works soo good. I even made a tik tok video of me playing "I feel so close to you right now" low cortisol song, check it out: https://vm.tiktok.com/ZNRqwTFDQ/
-Anyways, I'll post the code and here's what you need to make it:
-- 4 more pushbuttons connected to pins D15, D18, D19, D21;
-- 1 PAM8403 Op-Amp IC board connected to pin 1 of the NE5532 to the L pin;
-- 1 8Ω 0.5W speaker connected to the L out of the PAM8403 board.
-- 1 100kΩ resistor that grounds pin 3 of the NE5532 to keep it from leaking DC voltage. 
 
 
-See you soon!
+
+
+
