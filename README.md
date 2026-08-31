@@ -3,7 +3,24 @@ A project that studies the effect of sound and how waves produce it. Works like 
 
 I got the idea from a girl I know that wants to be a singer and she said she wanted to buy a synthesizer to get a step closer to composing her own song. That's when I thought "how cool it would be to try and make one, maybe even give it to her if it turns out good.". And yeah, that's basically how I got an idea to build a musical synthesizer.
 
-Project parts are in the file called bom.csv
+## Bill of Materials
+
+## Bill of Materials
+
+## Bill of Materials
+
+| Part | Quantity | Price | Link |
+|---|---:|---:|---|
+| ESP32 DevKit V1 | 1 | €6.89 | [Buy](https://share.temu.com/K3tj6sE6siB) |
+| PCM5102 DAC Module | 2 | €2.65 | [Buy](https://a.aliexpress.com/_ExivHVu) |
+| XH-A156 Amplifier Board | 1 | €1.29 | [Buy](https://a.aliexpress.com/_EQBbn1Y) |
+| 2W 8Ω Speaker | 4 | €2.16 | [Buy](https://a.aliexpress.com/_EGUYYXC) |
+| SN74HC595N Shift Register | 1 | €1.93 | [Buy](https://a.aliexpress.com/_EvkP7yO) |
+| GMT020-02-8P TFT Display | 1 | — | Any compatible ST7789 TFT display should work |
+| Push Button | 26 | — | Any suitable push button set should work |
+| 1N4148 Diode | 24 | €3.86 | [Buy](https://share.temu.com/MGWPABEpR8B) |
+| 10kΩ Resistor | 4 | €0.87 | [Buy](https://share.temu.com/5ZgNjFWWyZB) |
+| 100nF Ceramic Capacitor | 1 | — | Any 100 nF ceramic capacitor should work |
 
 To build a prototype follow the schematic and see where each wire is connected then upload the code to the ESP32 to use it. My own prototype uses just one custom PAM 8403 amplifier board and just one PCM5102 DAC board. I have color coded and connected all parts adjusting to the pinout and code in the schematic for easy understanding.
 
