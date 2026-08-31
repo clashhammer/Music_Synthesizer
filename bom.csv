@@ -1,0 +1,20 @@
+1. Core Module
+1x ESP32 DevKit V1 30 pin
+
+2. Audio
+4x 8-Ohm 2W Speakers.
+2x PCM5102 I2S DACs
+1x XH-A156 Amplifier Board (4-Channel, PAM8403 based)️
+️
+3. Button Matrix (24 Buttons + 2 Buttons for changing the waves and sound types)
+24x Tactile Push Buttons (12mm)️
+2x Tactile Push Buttons (6mm)
+24x 1N4148 Diodes
+1x SN74HC595N Shift register IC (digital pin expansion board)
+
+4. Display
+GMT020-02-8P2 ST7739 2.0inch TFT Display.
+
+5. Other components:
+6x 10kΩ 1/4W resistors
+1x 100nF Ceramic capacitor
