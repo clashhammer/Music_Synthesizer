@@ -1,20 +1,11 @@
-1. Core Module
-1x ESP32 DevKit V1 30 pin
-
-2. Audio
-4x 8-Ohm 2W Speakers.
-2x PCM5102 I2S DACs
-1x XH-A156 Amplifier Board (4-Channel, PAM8403 based)️
-️
-3. Button Matrix (24 Buttons + 2 Buttons for changing the waves and sound types)
-24x Tactile Push Buttons (12mm)️
-2x Tactile Push Buttons (6mm)
-24x 1N4148 Diodes
-1x SN74HC595N Shift register IC (digital pin expansion board)
-
-4. Display
-GMT020-02-8P2 ST7739 2.0inch TFT Display.
-
-5. Other components:
-6x 10kΩ 1/4W resistors
-1x 100nF Ceramic capacitor
+Part,Quantity,Price,Link
+ESP32 DevKit V1,1,€6,89,https://share.temu.com/K3tj6sE6siB
+PCM5102 DAC Module,2,€2,65,https://a.aliexpress.com/_ExivHVu
+XH-A156 Amplifier Board,1,€1.29,https://a.aliexpress.com/_EQBbn1Y
+2W 8Ω Speaker,4,€2.16,https://a.aliexpress.com/_EGUYYXC
+SN74HC595N Shift Register,1,€1.93,https://a.aliexpress.com/_EvkP7yO
+GMT020-02-8P TFT Display,1,,can't find a link, any ST7789 TFT display should work.
+Push Button,26,,can't find link, any push button set should work
+1N4148 Diode,24,€3,86,https://share.temu.com/MGWPABEpR8B
+10k Ohm Resistor,4,€0,87,https://share.temu.com/5ZgNjFWMyZB
+100nF Ceramic Capacitor,1,,can't find a direct link, any 100 nF ceramic capacitor should work.
